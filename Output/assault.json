@@ -1,0 +1,100 @@
+{
+   "Assault": [
+      {
+         "Year": "2001",
+         "no. of assault cases": 29138,
+         "no. of arrested": 6611,
+         "no. of not arrested": 22527
+      },
+      {
+         "Year": "2002",
+         "no. of assault cases": 29219,
+         "no. of arrested": 6732,
+         "no. of not arrested": 22487
+      },
+      {
+         "Year": "2003",
+         "no. of assault cases": 27193,
+         "no. of arrested": 6341,
+         "no. of not arrested": 20852
+      },
+      {
+         "Year": "2004",
+         "no. of assault cases": 26294,
+         "no. of arrested": 6349,
+         "no. of not arrested": 19945
+      },
+      {
+         "Year": "2005",
+         "no. of assault cases": 24703,
+         "no. of arrested": 6020,
+         "no. of not arrested": 18683
+      },
+      {
+         "Year": "2006",
+         "no. of assault cases": 23740,
+         "no. of arrested": 5752,
+         "no. of not arrested": 17988
+      },
+      {
+         "Year": "2007",
+         "no. of assault cases": 24235,
+         "no. of arrested": 6003,
+         "no. of not arrested": 18232
+      },
+      {
+         "Year": "2008",
+         "no. of assault cases": 23299,
+         "no. of arrested": 4754,
+         "no. of not arrested": 18545
+      },
+      {
+         "Year": "2009",
+         "no. of assault cases": 21107,
+         "no. of arrested": 5184,
+         "no. of not arrested": 15923
+      },
+      {
+         "Year": "2010",
+         "no. of assault cases": 19926,
+         "no. of arrested": 4605,
+         "no. of not arrested": 15321
+      },
+      {
+         "Year": "2011",
+         "no. of assault cases": 18980,
+         "no. of arrested": 4780,
+         "no. of not arrested": 14200
+      },
+      {
+         "Year": "2012",
+         "no. of assault cases": 18593,
+         "no. of arrested": 4498,
+         "no. of not arrested": 14095
+      },
+      {
+         "Year": "2013",
+         "no. of assault cases": 16640,
+         "no. of arrested": 4143,
+         "no. of not arrested": 12497
+      },
+      {
+         "Year": "2014",
+         "no. of assault cases": 15756,
+         "no. of arrested": 4191,
+         "no. of not arrested": 11565
+      },
+      {
+         "Year": "2015",
+         "no. of assault cases": 16054,
+         "no. of arrested": 3809,
+         "no. of not arrested": 12245
+      },
+      {
+         "Year": "2016",
+         "no. of assault cases": 4659,
+         "no. of arrested": 859,
+         "no. of not arrested": 3800
+      }
+   ]
+}
