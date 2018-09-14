@@ -2,11 +2,11 @@ const fs = require('fs');
 const readline = require('readline');
 const Stream = require('stream');
 
-const instream = fs.createReadStream('../CSV/Crimes_-_2001_to_present.csv');
+const instream = fs.createReadStream('./input/Crimes_-_2001_to_present.csv');
 const outstream = new Stream();
 const rl = readline.createInterface(instream, outstream);
 
-const crimestream = fs.createWriteStream('typesOfCrime.json');
+const crimestream = fs.createWriteStream('./output/typesOfCrime.json'); // types of crime output file to write json
 
 const violentIUCR = ['0110', '0130', '0261', '0262', '0263', '0264', '0265', '0266',
   '0271', '0272', '0273', '0274', '0275', '0281', '0291', '1753', '1754', '0312',

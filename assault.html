@@ -113,12 +113,7 @@
                 .call(d3.axisLeft(y));
 
             // Add the text label for the lines
-            // svg.append("circle")        // attach a circle
-            //     .attr("transform", "translate(" + (width / 4) + " ," + (height + margin.bottom) + ")")
-            //     .attr("cx", (width / 4))           // position the x-centre
-            //     .attr("cy", (height + margin.bottom) - 20)        // position the y-centre
-            //     .attr("r", 5)             // set the radius
-            //     .style("fill", "red");     // set the fill colour 
+
             svg.append("text")
                 .attr("transform", "translate(" + (width / 12) + " ," + (height + margin.bottom) + ")")
                 .style("text-anchor", "start")
@@ -159,7 +154,7 @@
                 .attr("font-weight", "bold");
         }
         // Get the data
-        d3.json("Output/assault.json", function (error, data) {
+        d3.json("output/assault.json", function (error, data) {
             if (error) throw error;
 
             // trigger render

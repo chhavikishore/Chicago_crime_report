@@ -10,7 +10,7 @@
   <style>
     .arc text {
       font: 10px sans-serif;
-      text-anchor: middle;
+      text-anchor: start;
       fill: black;
     }
 
@@ -55,7 +55,7 @@
       .outerRadius(r)
       .innerRadius(100);
 
-    d3.json('Output/typesOfCrime.json',
+    d3.json('output/typesOfCrime.json',
       (error, data) => {
         if (error) {
           throw error;

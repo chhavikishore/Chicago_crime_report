@@ -2,11 +2,13 @@ const fs = require('fs');
 const readline = require('readline');
 const Stream = require('stream');
 
-const instream = fs.createReadStream('../CSV/Crimes_-_2001_to_present.csv');
+const instream = fs.createReadStream('../input/Crimes_-_2001_to_present.csv');
 const outstream = new Stream();
-const rl = readline.createInterface(instream, outstream);
+const rl = readline.createInterface({
+  input: instream,
+}, outstream);
 
-const theftstream = fs.createWriteStream('theft.json'); // theft output file to write json
+const theftstream = fs.createWriteStream('../output/theft.json'); // theft output file to write json
 const theft = [];
 
 // when we fetch line the year is in string , make year in string
@@ -28,7 +30,7 @@ rl.on('line', (line) => {
     const year = heading.indexOf('Year');
     const desc = heading.indexOf('Description');
     if (row[type] === 'THEFT' && (row[year] >= 2001 && row[year] <= 2016)) {
-      for (let i = 0; i < 16; i + 1) {
+      for (let i = 0; i < 16; i += 1) {
         if (theft[i].Year === row[year]) {
           if (row[desc] === 'OVER $500') {
             theft[i]['OVER $500'] += 1;
